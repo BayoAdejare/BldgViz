@@ -13,7 +13,7 @@ class EnergyUsageLargeCommercialBuildingsReported2014(models.Model):
     Year_Built = models.CharField(max_length=200, null=True)
     Number_of_Buildings = models.CharField(max_length=200, null=True)
     Philadelphia_Building_ID = models.CharField(max_length=200, null=True)
-    Electricity_Use_Grid_Purchase_and_Generated_from_Onsite_Renewable_Systems_kBtu = models.CharField(max_length=200,
+    Electricity_Use_Grid_from_Onsite_Renewable_Systems_kBtu = models.CharField(max_length=200,
                                                                                                       null=True)
     Natural_Gas_Use_kBtu = models.CharField(max_length=200, null=True)
     Fuel_Oil_2_Use_kBtu = models.CharField(max_length=200, null=True)

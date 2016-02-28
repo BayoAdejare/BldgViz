@@ -60,3 +60,16 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+
+# Ignore more Django stuff
+*.py[co]
+MANIFEST
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+tests/report/
+
+# Ignore the default sqlite database
+/db/*.sqlite3
